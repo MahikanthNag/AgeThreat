@@ -1,0 +1,11 @@
+{
+  "manifest_version": 2,
+
+  "name": "Age Threat!",
+  "description": "This extension will display your exact age with every second updated precisely",
+  "version": "1.0",
+  "incognito": "split",
+  "chrome_url_overrides": {
+    "newtab": "new-tab.html"
+  }
+}

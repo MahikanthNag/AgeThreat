@@ -1,0 +1,32 @@
+<html>
+
+<head>
+	<!-- <script src="./angular.min.js"></script> -->
+	<script src="./angular.min.js"></script>
+	<script src="./popup.js"></script>
+	<style>
+		.centered {
+			position: fixed;
+			top: 40%;
+			left: 50%;
+			/* bring your own prefixes */
+			transform: translate(-50%, -50%);
+		}
+
+		#bottom_nav {
+			width: 100%;
+			position: fixed;
+			bottom: 0px;
+			text-align: center;
+			z-index: 9999;
+		}
+	</style>
+</head>
+
+<body ng-app="myApp" ng-controller="myCtrl">
+	<div class=centered>
+		<h1>{{diff}}</h1>
+	</div>
+</body>
+
+</html>
